@@ -4,7 +4,7 @@ plugins {
     checkstyle
     jacoco
     id("se.patrikerdes.use-latest-versions") version "0.2.18"
-    id("com.github.ben-manes.versions") version "0.50.0"
+    id("com.github.ben-manes.versions") version "0.51.0"
 }
 
 group = "pet-project.org"
@@ -19,14 +19,14 @@ repositories {
 }
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.10.0"))
+    testImplementation(platform("org.junit:junit-bom:5.11.3"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testImplementation("org.assertj:assertj-core:3.26.3")
-    implementation("org.projectlombok:lombok:1.18.34")
-    compileOnly ("org.projectlombok:lombok:1.18.34")
-    annotationProcessor ("org.projectlombok:lombok:1.18.34")
-    testCompileOnly ("org.projectlombok:lombok:1.18.34")
-    testAnnotationProcessor ("org.projectlombok:lombok:1.18.34")
+    implementation("org.projectlombok:lombok:1.18.36")
+    compileOnly ("org.projectlombok:lombok:1.18.36")
+    annotationProcessor ("org.projectlombok:lombok:1.18.36")
+    testCompileOnly ("org.projectlombok:lombok:1.18.36")
+    testAnnotationProcessor ("org.projectlombok:lombok:1.18.36")
 }
 checkstyle {
     toolVersion = "10.20.1"
