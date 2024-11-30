@@ -1,3 +1,4 @@
+[![Alarm-clock](https://github.com/VictorGotsenko/alarm-clock-pet-project/actions/workflows/AlarmClock.yml/badge.svg)](https://github.com/VictorGotsenko/alarm-clock-pet-project/actions/workflows/AlarmClock.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/086f196c0bdecc1f5320/maintainability)](https://codeclimate.com/github/VictorGotsenko/alarm-clock-pet-project/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/086f196c0bdecc1f5320/test_coverage)](https://codeclimate.com/github/VictorGotsenko/alarm-clock-pet-project/test_coverage)
 ## The Alarm clock
